@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ELITE ORGANISATION</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #080812;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      text-align: center;
+      padding: 30px 12px;
+      background: linear-gradient(135deg,#171044,#090912);
+      border-bottom: 2px solid #8b5cf6;
+    }
+    header h1 { color: #c4a7ff; }
+    nav a {
+      color: white;
+      margin: 8px;
+      text-decoration: none;
+    }
+    main { padding: 18px; max-width: 700px; margin: auto; }
+    .hero, .card {
+      background: #151526;
+      border: 1px solid #39305e;
+      border-radius: 14px;
+      padding: 20px;
+      margin: 18px 0;
+    }
+    h2 { color: #c4a7ff; }
+    .btn {
+      display: inline-block;
+      background: #7c3aed;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+    footer { text-align: center; padding: 25px; color: #aaa; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ELITE ORGANISATION</h1>
+    <p>YOUR BATTLE. YOUR GLORY.</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#tournaments">Tournaments</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h2>Welcome, Warriors!</h2>
+      <p>Join ELITE ORGANISATION Free Fire tournaments.</p>
+      <a class="btn" href="#tournaments">Explore Tournaments</a>
+    </section>
+
+    <section id="tournaments">
+      <h2>🏆 Our Tournaments</h2>
+      <div class="card">
+        <h3>🔥 DAILY SCRIM</h3>
+        <p>Entry Fee: 45 TK</p>
+        <p>Total Prize Pool: 400 TK</p>
+        <p>1st: 160 | 2nd: 110</p>
+        <p>3rd: 70 | 4th: 60</p>
+        <a class="btn" href="#contact">Register</a>
+      </div>
+      <div class="card">
+        <h3>⚡ CHAMPION RUSH</h3>
+        <p>Entry Fee: 45 TK</p>
+        <p>Total Prize Pool: 400 TK</p>
+        <a class="btn" href="#contact">Register</a>
+      </div>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact & Registration</h2>
+      <p>Register for our next tournament.</p>
+      <p>Contact our admin to join.</p>
+      <!-- Add your official WhatsApp link here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Presented by ELITE ORGANISATION</p>
+    <p>ELITE FAMILY © 2026</p>
+  </footer>
+</body>
+</html>
